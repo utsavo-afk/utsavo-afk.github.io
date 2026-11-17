@@ -8,8 +8,8 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-	title: "Utsav Ojha",
-	subtitle: "Notes on TypeScript, Go and building for the web",
+	title: "Utsav O",
+	subtitle: "Field Notes & Thoughts",
 	lang: "en", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
 	themeColor: {
 		hue: 265, // The violet-blue of the avatar's spiral. From 0 to 360, e.g. red: 0, teal: 200, cyan: 250, pink: 345
