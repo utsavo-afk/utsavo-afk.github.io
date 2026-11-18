@@ -17,7 +17,9 @@ const className = Astro.props.class;
 const profileConf = profileConfig;
 const licenseConf = licenseConfig;
 // The published address (astro.config `site`), not the dev server's origin.
-const postUrl = decodeURIComponent(new URL(Astro.url.pathname, Astro.site ?? Astro.url).toString());
+const postUrl = decodeURIComponent(
+	new URL(Astro.url.pathname, Astro.site ?? Astro.url).toString(),
+);
 ---
 <div class={`relative transition overflow-hidden bg-[var(--license-block-bg)] py-5 px-6 ${className}`}>
     <div class="transition font-bold text-black/75 dark:text-white/75">
